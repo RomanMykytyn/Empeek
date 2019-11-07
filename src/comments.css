@@ -1,0 +1,37 @@
+.comments {
+  width: 450px;
+  min-height: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: white;
+  padding-bottom: 25px;
+  color: #121212;
+  font-family: Georgia;
+  font-size: 14px;
+}
+
+.listComments {
+  min-height: 325px;
+  max-height: 800px;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.picture {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 0 25px 0 0;
+  vertical-align: top;
+}
+
+.picture_down {
+  margin-left: 25px;
+  background-color: lightgrey;
+}
+
+textarea {
+  border: 2px solid lightgrey;
+}

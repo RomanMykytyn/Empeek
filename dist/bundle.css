@@ -1,0 +1,195 @@
+body {
+  background-color: #fbf7f5;
+}
+
+html {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: inline-block;
+  width: 250px;
+  height: 800px;
+  background-color: #252525;
+  vertical-align: top;
+}
+
+header > h1 {
+  font-family: "Courier New";
+  font-weight: lighter;
+  color: white;
+  padding-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+header > p {
+  font-family: "Courier New";
+  font-weight: lighter;
+  color: gray;
+  padding-left: 25px;
+  margin-top: 0;
+}
+
+.reactContainer {
+  display: inline-block;
+  margin: 30px 0 0 0;
+}
+
+.borderItem {
+  display: inline-block;
+  width: 25px;
+  height: 45px;
+  vertical-align: middle;
+}
+
+.item {
+  display: inline-block;
+  height: 45px;
+  vertical-align: middle;
+  border-bottom: 1px solid lightgrey;
+}
+
+.itemName {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  width: 355px;
+  padding-top: 7px;
+}
+
+.deleteButton {
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  border: 2px solid #f42069;
+  border-radius: 5px;
+  color: #f42069;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.counter {
+  background-color: #01dbd5;
+  color: white;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 45%;
+  margin-left: 5px;
+}
+
+.active {
+  border-left: 5px solid #f42069;
+  width: 20px;
+}
+
+.items {
+  display: inline-block;
+  margin-left: 25px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: white;
+  width: 500px;
+  min-height: 500px;
+  max-height: 800px;
+  overflow: auto;
+  padding-top: 0px;
+}
+
+.title {
+  margin: 20px 0 10px 25px;
+  font-size: 40px;
+  font-family: Arial;
+  color: #6d6d6d;
+}
+
+.enterName {
+  margin: 0 10px 0 25px;
+  width: 300px;
+  height: 40px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.addButton {
+  height: 40px;
+  width: 150px;
+  background-color: #01dbd5;
+  border: none;
+  border-radius: 5px;
+  vertical-align: top;
+  color: white;
+  font-size: 18px;
+}
+
+.listItems {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.textComment {
+  display: inline-block;
+  max-width: 320px;
+  word-wrap: break-word;
+}
+
+.comment {
+  width: 400px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 25px;
+  margin-left: 25px;
+}
+
+.comment:last-child {
+  border-bottom: none;
+}
+
+.isOrange {
+  background-color: #fca017;
+}
+
+.isBlue {
+  background-color: #2d2185;
+}
+
+.comments {
+  width: 450px;
+  min-height: 500px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: white;
+  padding-bottom: 25px;
+  color: #121212;
+  font-family: Georgia;
+  font-size: 14px;
+}
+
+.listComments {
+  min-height: 325px;
+  max-height: 800px;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.picture {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 0 25px 0 0;
+  vertical-align: top;
+}
+
+.picture_down {
+  margin-left: 25px;
+  background-color: lightgrey;
+}
+
+textarea {
+  border: 2px solid lightgrey;
+}
+

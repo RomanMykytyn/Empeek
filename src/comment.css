@@ -1,0 +1,25 @@
+.textComment {
+  display: inline-block;
+  max-width: 320px;
+  word-wrap: break-word;
+}
+
+.comment {
+  width: 400px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 25px;
+  margin-left: 25px;
+}
+
+.comment:last-child {
+  border-bottom: none;
+}
+
+.isOrange {
+  background-color: #fca017;
+}
+
+.isBlue {
+  background-color: #2d2185;
+}

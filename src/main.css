@@ -1,0 +1,38 @@
+body {
+  background-color: #fbf7f5;
+}
+
+html {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: inline-block;
+  width: 250px;
+  height: 800px;
+  background-color: #252525;
+  vertical-align: top;
+}
+
+header > h1 {
+  font-family: "Courier New";
+  font-weight: lighter;
+  color: white;
+  padding-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+header > p {
+  font-family: "Courier New";
+  font-weight: lighter;
+  color: gray;
+  padding-left: 25px;
+  margin-top: 0;
+}
+
+.reactContainer {
+  display: inline-block;
+  margin: 30px 0 0 0;
+}

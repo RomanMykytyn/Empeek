@@ -1,0 +1,44 @@
+.items {
+  display: inline-block;
+  margin-left: 25px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: white;
+  width: 500px;
+  min-height: 500px;
+  max-height: 800px;
+  overflow: auto;
+  padding-top: 0px;
+}
+
+.title {
+  margin: 20px 0 10px 25px;
+  font-size: 40px;
+  font-family: Arial;
+  color: #6d6d6d;
+}
+
+.enterName {
+  margin: 0 10px 0 25px;
+  width: 300px;
+  height: 40px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.addButton {
+  height: 40px;
+  width: 150px;
+  background-color: #01dbd5;
+  border: none;
+  border-radius: 5px;
+  vertical-align: top;
+  color: white;
+  font-size: 18px;
+}
+
+.listItems {
+  list-style-type: none;
+  padding-left: 0;
+}
