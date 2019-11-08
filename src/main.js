@@ -22,9 +22,11 @@ class App extends Component {
 
   componentDidMount() {
     let listItems = JSON.parse(localStorage.getItem('listItems'));
-    this.setState({
-      listItems: listItems
-    });
+    if (listItems) {
+      this.setState({
+        listItems: listItems
+      });
+    }
   }
 
 

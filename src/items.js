@@ -29,6 +29,7 @@ class Items extends Component {
 
 
   render() {
+    let listItems = this.props.listItems;
     return(
         <div className='items'>
 
@@ -44,11 +45,11 @@ class Items extends Component {
                 onClick={this.onClickAdd} />
 
           <ul className='listItems'>
-            {this.props.listItems.map(el => (<Item item={el}
-                                                   key={el.name}
-                                                   deleteItem={this.props.deleteItem}
-                                                   activeItem={this.props.activeItem}
-                                                   setActiveItem={this.props.setActiveItem} />))}
+              {listItems.map(el => (<Item item={el}
+                                         key={el.name}
+                                         deleteItem={this.props.deleteItem}
+                                         activeItem={this.props.activeItem}
+                                         setActiveItem={this.props.setActiveItem} />))}
           </ul>
 
         </div>
