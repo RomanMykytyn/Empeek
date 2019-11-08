@@ -46,9 +46,7 @@ addComment(e) {
         <div className="picture picture_down">
         </div>
 
-        <textarea cols='43'
-                  rows='4'
-                  onChange={this.onChangeComment}
+        <textarea onChange={this.onChangeComment}
                   onKeyPress={this.addComment}>
         </textarea>
       </div>

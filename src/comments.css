@@ -34,4 +34,6 @@
 
 textarea {
   border: 2px solid lightgrey;
+  width: 320px;
+  height: 70px;
 }
