@@ -4,10 +4,6 @@ import './comment.css';
 class Comment extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-        pokemon: {},
-    };
-
   }
 
   render() {
