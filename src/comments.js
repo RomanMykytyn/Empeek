@@ -47,7 +47,8 @@ addComment(e) {
         </div>
 
         <textarea onChange={this.onChangeComment}
-                  onKeyPress={this.addComment}>
+                  onKeyPress={this.addComment}
+                  placeholder='"CTRL+Enter" to create a comment.'>
         </textarea>
       </div>
     );
